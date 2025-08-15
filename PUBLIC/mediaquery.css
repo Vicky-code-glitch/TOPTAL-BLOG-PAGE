@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 490px) { 
+    /* NAVIGATION BAR     */
+
+    body{
+        overflow: hidden;
+    }
+    
+    .menu{
+        display: block;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        gap: 70%;
+    }
+
+    /* SECTION ONE */
+
+    .blog{
+        padding-left: 2%;
+        width: 100%;
+        height: 40vh;
+    }
+
+    .blog h1{
+        display: none;
+    }
+
+    .blog p{
+        display: none;
+    }
+
+    .share-icon{
+        display: none;
+    }
+
+    .blog-two{
+        display: grid;
+        padding: 40px 0;
+    }
+
+    .blog-two button{
+        width: 35%;
+        margin-top: -12%;
+        margin-left: 3.5%;
+    }
+
+    .blog-two p{
+        display: block;
+    }
+
+    .blog-three button{
+        display: none;
+    }
+
+    .blog-three{
+        margin-top: -7.5%;
+    }
+
+    .blog-three i{
+        padding: 5%;
+    }
+
+    /* SECTION TWO */
+
+
+    .blog-post{
+        row-gap: 45px;
+    }
+    .blog-post-one{
+        margin-top: -3%;
+        height: 20vh;
+        width: 45%;
+    }
+
+    .blog-post-one a{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .eng a{
+        display: none;
+    }
+
+    .eng-two{
+        display: none;
+    }
+
+    .blog-post-two{
+        height: 20vh;
+        width: 45%;
+    }
+
+    .eng-three{
+        display: none;
+    }
+
+    /* SECTION THREE */
+
+    .wrld{
+        display: grid;
+    }
+
+    .world-one h1{
+        font-size: 40px;
+        margin-left: 25px;
+    }
+
+    .world-two{
+        padding-top: 15px;
+    }
+
+    .world-link1{
+        display: grid;
+        background-color: transparent;
+        row-gap: 10px;
+        margin-left: 25px;
+    }
+
+    .world-link1 input{
+        height: 5.5vh;
+        width: 85%;
+    }
+
+    .world-link1 button{
+        width: 85%;
+        height: 5.5vh;
+    }
+
+    .world-link{
+        padding-top: 10%;
+        margin-left: 27px;
+    }
+
+
+    /* SECTION FOUR */
+
+
+    .grid{
+        display: grid;
+        margin-left: 35px;
+    }
+
+    .grid-area{
+        width: 90%;
+        height: 100vh;
+        box-shadow: 0 0 5px 5px rgba(237, 240, 248, .8);    
+    }
+
+    .span-one{
+        display: none;
+    }
+
+    /* SECTION FIVE */
+
+    .articles-two{
+        display: grid;
+    }
+
+    .article-two{
+        width: 92%;
+        height: 100%;
+    }
+
+    /* SECTION SIX */
+
+    .worldwide{
+        padding-top: 145%;
+    }
+
+    .wrlds{
+        display: grid;
+    }
+
+    .world-once h1{
+        font-size: 40px;
+        margin-left: 25px;
+    }
+
+    .world-two{
+        padding-top: 15px;
+    }
+
+    .world-link2{
+        display: grid;
+        background-color: transparent;
+        row-gap: 10px;
+        margin-left: 25px;
+    }
+
+    .world-link2 input{
+        height: 5.5vh;
+        width: 85%;
+    }
+
+    .world-link2 button{
+        width: 85%;
+        height: 5.5vh;
+    }
+
+    .world-links{
+        padding-top: 10%;
+        margin-left: 27px;
+    }
+
+    /* SECTION SEVEN */
+
+    .footered{
+        display: grid;
+        gap: 0.001%;
+    }
+
+    .one1 a{
+        font-size: 15px;
+    }
+
+    .footers{
+        text-align: center;
+    }
+
+    .join{
+        display: grid;
+        text-align: center;
+    }
+
+    .join h1{
+        font-size: 22px;
+    }
+
+    .join button{
+        width: 135%;
+    }
+
+    .main{
+        display: grid;
+        justify-content: start;
+    }
+
+    .feature{
+        display: grid;
+    }
+
+    .last-footer{
+        height: 100%;
+    }
+
+    .tops{
+        display: grid;
+    }
+
+    .tops img{
+        width: 50%;
+        height: 5vh;
+    }
+
+    .free{
+        display: none;
+    }
+
+    .lasted{
+        display: grid;
+        padding-top: 25%;
+    }
+
+    .tru1{
+        border: 2px solid blue;
+        border-radius: 50%;
+    }
+
+    .last-list{
+        padding: 40px 0;
+    }
+
+    .lastly{
+        display: grid;
+        padding-top: 15%;
+    }
+
+    .last-lists{
+        text-align: center;
+    }
+
+    .lasts-lists{
+        text-align: center;
+    }
+
+    .tops{
+        justify-content: center;
+    }
+
+    .frees{
+        display: flex;
+        justify-content: center;
+    }
+
+    .one1{
+        display: flex;
+        flex-direction: column;
+    }
+}
